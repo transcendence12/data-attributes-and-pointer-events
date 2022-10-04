@@ -2,15 +2,19 @@
 html, body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
 
 body{
     background-color: black;
+    width: 100%;
+    height: 100vh;
 }
 
 h1{
     margin: 0;
-    font-size: 12px;
+    font-size: 1rem;
 }
 
 header{
@@ -18,18 +22,17 @@ header{
     margin: 15px auto 0 auto;
     justify-content: center;
     align-items: center;
-    position: relative;
-    width: 107px;
 }
 
 .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-family: 'Roboto', sans-serif;
     background-color: black;
-    border: 2px solid #ffe600;
     padding: 3px 7px;
     color: whitesmoke;
-    position: absolute;
-    top: 35px
 }
 
 .logo{
@@ -41,10 +44,15 @@ header{
     height: 60px;
     border-radius: 50%;
     border: 3px solid #ffe600;
+    margin-bottom: 2em;
 }
 
-.logo i{
-    padding: 0;
+
+/* padding: 0; */
+.logo img{
+    width: 50px;
+    margin-bottom: 15px;
+    margin-right: 10px;
 }
 
 i{

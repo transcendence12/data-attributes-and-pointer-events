@@ -1,34 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <!-- font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Usage of data attributes in HTML elements - share and like image example</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>
+      Usage of data attributes in HTML elements - share and like image example
+    </title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header>
-        <div>
-            <h1>Share and like an image</h1>
-            <div class="logo"><i class="fa-solid fa-cat"></i></div>
-        </div>
+      <div class="title">
+        <div class="logo"><i class="fa-solid fa-cat"></i></div>
+        <h1>Share and like an image</h1>
+      </div>
     </header>
     <section class="gallery-container">
-        <div class="img-container">
-            <img src="" alt="" srcset="" id="image-1">
-            <div class="social-icons-container">
-                <i class="fa-solid fa-heart" data-heart="image-1"></i>
-				<i class="fa-solid fa-share" data-share="image-1"></i>
-            </div>
+      <div class="img-container">
+        <img
+          src="https://images.pexels.com/photos/1543793/pexels-photo-1543793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="A cat who wants you to click like icon"
+          srcset=""
+          id="image-1"
+        />
+        <div class="social-icons-container">
+          <i class="fa-solid fa-heart" data-heart="image-1"></i>
+          <i class="fa-solid fa-share" data-share="image-1"></i>
         </div>
+      </div>
     </section>
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
